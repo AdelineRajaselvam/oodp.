@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int
+main ()
+{
+  int a, b;
+  cout << "Enter two numbers : ";
+  cin >> a >> b;
+  if ((a + b) >= 105 && (a + b) < 200)
+    {
+      cout << "200";
+    }
+  else
+    {
+      cout << a + b;
+    }
+  return 0;
+}
